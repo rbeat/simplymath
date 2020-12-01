@@ -1,0 +1,105 @@
+﻿Сборка начата 11.02.2015 23:25:00.
+     1>Проект "G:\SimplyMath\SimplyMath\SimplyMath.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         L:\Новая папка (12)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SimplyMath.cpp
+         SimplyMath.cpp
+     1>g:\simplymath\simplymath\simplymath.cpp(79): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>g:\simplymath\simplymath\simplymath.cpp(81): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\новая папка (12)\vc\include\time.inl(112): см. объявление "localtime"
+     1>g:\simplymath\simplymath\simplymath.cpp(90): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(92): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(98): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(105): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(112): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(119): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(126): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(131): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(135): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(144): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\новая папка (12)\vc\include\time.h(174): см. объявление "asctime"
+     1>g:\simplymath\simplymath\simplymath.cpp(171): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(178): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>g:\simplymath\simplymath\simplymath.cpp(217): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(222): warning C4129: S: неизвестная escape-последовательность
+     1>g:\simplymath\simplymath\simplymath.cpp(223): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(226): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(238): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(242): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(246): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(250): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(254): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(265): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(278): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 l:\новая папка (12)\vc\include\conio.h(133): см. объявление "kbhit"
+     1>g:\simplymath\simplymath\simplymath.cpp(280): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 l:\новая папка (12)\vc\include\conio.h(131): см. объявление "getch"
+     1>g:\simplymath\simplymath\simplymath.cpp(292): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(297): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(597): warning C4101: abc_temp: неиспользованная локальная переменная
+     1>g:\simplymath\simplymath\simplymath.cpp(645): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(649): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(653): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(657): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(661): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(705): warning C4101: abc_temp: неиспользованная локальная переменная
+     1>g:\simplymath\simplymath\simplymath.cpp(747): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(751): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(755): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(759): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(763): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(767): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(778): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(794): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(798): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(802): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(806): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(810): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(827): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 l:\новая папка (12)\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>g:\simplymath\simplymath\simplymath.cpp(434): warning C4715: getMapValue: значение возвращается не при всех путях выполнения
+       Link:
+         L:\Новая папка (12)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\SimplyMath\Debug\SimplyMath.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\SimplyMath\Debug\SimplyMath.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\SimplyMath\Debug\SimplyMath.lib" /MACHINE:X86 Debug\SimplyMath.obj
+         SimplyMath.vcxproj -> G:\SimplyMath\Debug\SimplyMath.exe
+     1>Сборка проекта "G:\SimplyMath\SimplyMath\SimplyMath.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:09.65
