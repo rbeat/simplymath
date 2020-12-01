@@ -1,4 +1,4 @@
-# SimplyMath - Basic math learners for Elementary School
+# SimplyMath - Basic math teacher for Elementary School
 
 This was initially a little program (sirca 2015) meant for my sister.
 
