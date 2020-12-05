@@ -127,21 +127,21 @@ void main(){
 	system("color 08");
 	system("cls");
 	cout << "This project is open-source, so you can edit it like you want!" << endl;
-	cout << "Ýòîò ïðîåêò ñîäåðæèò îòêðûòûé èñõîäíûé êîä, \nïîýòîìó Âû ìîæåòå èçìåíÿòü ïàðàìåòðû ïðîãðàììû êàê âàì íðàâèòüñÿ!" << endl;
+	cout << "Ð­Ñ‚Ð¾Ñ‚ Ð¿Ñ€Ð¾ÐµÐºÑ‚ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ñ‚ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ñ‹Ð¹ Ð¸ÑÑ…Ð¾Ð´Ð½Ñ‹Ð¹ ÐºÐ¾Ð´, \nÐ¿Ð¾ÑÑ‚Ð¾Ð¼Ñƒ Ð’Ñ‹ Ð¼Ð¾Ð¶ÐµÑ‚Ðµ Ð¸Ð·Ð¼ÐµÐ½ÑÑ‚ÑŒ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹ ÐºÐ°Ðº Ð²Ð°Ð¼ Ð½Ñ€Ð°Ð²Ð¸Ñ‚ÑŒÑÑ!" << endl;
 	_sleep(5000);
 	system("cls");
-	cout << "Ñïàñèáî TheKittyKat èç http://codereview.stackexchange.com/ \nçà ïðåäîñòàâëåííóþ çìåéêó!\x02\n" << endl;
-	cout << "Ñïàñèáî Äîðîõèíó Áîãäàíó Ïàâëîâè÷ó çà ïîëó÷åíûå çíàíèå â C++! \x02" << endl;
+	cout << "Ð¡Ð¿Ð°ÑÐ¸Ð±Ð¾ TheKittyKat Ð¸Ð· http://codereview.stackexchange.com/ \nÐ·Ð° Ð¿Ñ€ÐµÐ´Ð¾ÑÑ‚Ð°Ð²Ð»ÐµÐ½Ð½ÑƒÑŽ Ð·Ð¼ÐµÐ¹ÐºÑƒ!\x02\n" << endl;
+	cout << "Ð¡Ð¿Ð°ÑÐ¸Ð±Ð¾ Ð”Ð¾Ñ€Ð¾Ñ…Ð¸Ð½Ñƒ Ð‘Ð¾Ð³Ð´Ð°Ð½Ñƒ ÐŸÐ°Ð²Ð»Ð¾Ð²Ð¸Ñ‡Ñƒ Ð·Ð° Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ñ‹Ðµ Ð·Ð½Ð°Ð½Ð¸Ðµ Ð² C++! \x02" << endl;
 	_sleep(5000);
 	system("color 0a");
 	system("cls");
-	cout << "Ââåäè ñâî¸ èìÿ íà àíãëèéñêîì ÿçûêå: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸ ÑÐ²Ð¾Ñ‘ Ð¸Ð¼Ñ Ð½Ð° Ð°Ð½Ð³Ð»Ð¸Ð¹ÑÐºÐ¾Ð¼ ÑÐ·Ñ‹ÐºÐµ: " << endl;
 	cin >> name;
 	write.open("C:\\SimplyMathResults.txt", ios::app);
 	write << "________________________________________"<< endl;
 	system("cls");
-	write << "Èìÿ: " << name << endl;
-	write << "Äàòà/Âðåìÿ òåñòèðîâàíèÿ: " << asctime(timeinfo) << endl;
+	write << "Ð˜Ð¼Ñ: " << name << endl;
+	write << "Ð”Ð°Ñ‚Ð°/Ð’Ñ€ÐµÐ¼Ñ Ñ‚ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ: " << asctime(timeinfo) << endl;
 	for (int i = 0; i < times; i++){
 		if (times < 15){
 			times = 0;
@@ -154,20 +154,20 @@ void main(){
 		cout << a << "*" << b << " - ?" << endl;
 		cin >> answer;
 		if (answer == a*b){
-			cout << "\n\nÌîëîäåö!\x01 " << endl;
+			cout << "\n\nÐœÐ¾Ð»Ð¾Ð´ÐµÑ†!\x01 " << endl;
 			score = score + 1;
-			cout << "Ñ÷åò: " << score << "\n\n";
+			cout << "Ð¡Ñ‡ÐµÑ‚: " << score << "\n\n";
 		}
 		else{
-			cout << "\n\nÎøèáêà! Ïîïðîáóé åùå ðàç:" << endl;
+			cout << "\n\nÐžÑˆÐ¸Ð±ÐºÐ°! ÐŸÐ¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹ ÐµÑ‰Ðµ Ñ€Ð°Ð·:" << endl;
 			i = i + 1;
 			score = score - 1;
-			cout << "Ñ÷åò: " << score << "\n\n";
+			cout << "Ð¡Ñ‡ÐµÑ‚: " << score << "\n\n";
 			continue;
 		}
 		if (score == times){
 			system("cls");
-			cout << "Âðåìÿ îòäîõíóòü!" << endl;
+			cout << "Ð’Ñ€ÐµÐ¼Ñ Ð¾Ñ‚Ð´Ð¾Ñ…Ð½ÑƒÑ‚ÑŒ!" << endl;
 			_sleep(5000);
 			snakemain();
 		}
@@ -202,27 +202,27 @@ void devide(){
 		cout << b << "/" << a << " - ?" << endl;
 		cin >> answer;
 		if (answer == b / a){
-			cout << "\n\nÌîëîäåö!\x01 " << endl;
+			cout << "\n\nÐœÐ¾Ð»Ð¾Ð´ÐµÑ†!\x01 " << endl;
 			score = score + 1;
-			cout << "Ñ÷åò: " << score << "\n\n";
+			cout << "Ð¡Ñ‡ÐµÑ‚: " << score << "\n\n";
 		}
 		else{
-			cout << "\n\nÎøèáêà! Ïîïðîáóé åùå ðàç." << endl;
+			cout << "\n\nÐžÑˆÐ¸Ð±ÐºÐ°! ÐŸÐ¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹ ÐµÑ‰Ðµ Ñ€Ð°Ð·." << endl;
 			score = score - 1;
-			cout << "Ñ÷åò: " << score << "\n\n";
+			cout << "Ð¡Ñ‡ÐµÑ‚: " << score << "\n\n";
 			continue;
 		}
 		if (score == times){
-			cout << "Òû ìîëîäåö! Òû ïðîøåë âñå òåñòû! Ïîçäðàâëÿåì!\x02";
+			cout << "Ð¢Ñ‹ Ð¼Ð¾Ð»Ð¾Ð´ÐµÑ†! Ð¢Ñ‹ Ð¿Ñ€Ð¾ÑˆÐµÐ» Ð²ÑÐµ Ñ‚ÐµÑÑ‚Ñ‹! ÐŸÐ¾Ð·Ð´Ñ€Ð°Ð²Ð»ÑÐµÐ¼!\x02";
 			_sleep(2000);
-			write << "Ðåçóëüòàò: " << score << " î÷êîâ." << endl;
+			write << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << score << " Ð¾Ñ‡ÐºÐ¾Ð²." << endl;
 			write << "________________________________________" << endl;
 			write.close();
 			system("cls");
-			cout << "Ðåçóëüòàò ñîõðàíåí â: C:\SimplyMathResults.txt" << endl;
+			cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½ Ð²: C:\SimplyMathResults.txt" << endl;
 			_sleep(3000);
 			system("cls");
-			cout << "Òû ìîæåøü ïîèãðàòü â íîâóþ èãðó!" << endl;
+			cout << "Ð¢Ñ‹ Ð¼Ð¾Ð¶ÐµÑˆÑŒ Ð¿Ð¾Ð¸Ð³Ñ€Ð°Ñ‚ÑŒ Ð² Ð½Ð¾Ð²ÑƒÑŽ Ð¸Ð³Ñ€Ñƒ!" << endl;
 			_sleep(3000);
 			system("cls");
 			mbmain();
@@ -234,34 +234,34 @@ void devide(){
 // Snake function -START-
 void snakemain(){
 	system("cls");
-	cout << "ÇÌÅÉÊÀ!" << endl;
+	cout << "Ð—ÐœÐ•Ð™ÐšÐ!" << endl;
 	_sleep(1000);
 	system("color 02");
 	system("cls");
-	cout << "ÇÌÅÉÊÀ!" << endl;
+	cout << "Ð—ÐœÐ•Ð™ÐšÐ!" << endl;
 	_sleep(1000);
 	system("color 03");
 	system("cls");
-	cout << "ÇÌÅÉÊÀ!" << endl;
+	cout << "Ð—ÐœÐ•Ð™ÐšÐ!" << endl;
 	_sleep(1000);
 	system("color 04");
 	system("cls");
-	cout << "ÇÌÅÉÊÀ!" << endl;
+	cout << "Ð—ÐœÐ•Ð™ÐšÐ!" << endl;
 	_sleep(1000);
 	system("color 05");
 	system("cls");
-	cout << "ÇÌÅÉÊÀ!" << endl;
+	cout << "Ð—ÐœÐ•Ð™ÐšÐ!" << endl;
 	_sleep(1000);
 	system("color 0a");
 	system("cls");
-	cout << "(Èãðà íà÷íåòñÿ ÷åðåç 10 ñåê.) \nÏÐÀÂÈËÀ ÈÃÐÛ: " << endl;
-	cout << "Öåëü èãðû: Ñúåñòü âñå ôðóêòû íå âðåçàâøèñü â ñòåíêó.\n" << endl;
-	cout << "Ãðàôèêà: 1 - Çìåéêà" << endl;
-	cout << "         ! - Ñòåíêà" << endl;
-	cout << "         @ - Ôðóêòû" << endl;
-	cout << "         a èëè \" \" - Ïîëå\n" << endl;
-	cout << "Óïðàâëåíèå: Ñòðåëî÷êè\n" << endl;
-	cout << "ÓÄÀ×È ÒÅÁÅ!" << endl;
+	cout << "(Ð˜Ð³Ñ€Ð° Ð½Ð°Ñ‡Ð½ÐµÑ‚ÑÑ Ñ‡ÐµÑ€ÐµÐ· 10 ÑÐµÐº.) \nÐŸÐ ÐÐ’Ð˜Ð›Ð Ð˜Ð“Ð Ð«: " << endl;
+	cout << "Ð¦ÐµÐ»ÑŒ Ð¸Ð³Ñ€Ñ‹: Ð¡ÑŠÐµÑÑ‚ÑŒ Ð²ÑÐµ Ñ„Ñ€ÑƒÐºÑ‚Ñ‹ Ð½Ðµ Ð²Ñ€ÐµÐ·Ð°Ð²ÑˆÐ¸ÑÑŒ Ð² ÑÑ‚ÐµÐ½ÐºÑƒ.\n" << endl;
+	cout << "Ð“Ñ€Ð°Ñ„Ð¸ÐºÐ°: 1 - Ð—Ð¼ÐµÐ¹ÐºÐ°" << endl;
+	cout << "         ! - Ð¡Ñ‚ÐµÐ½ÐºÐ°" << endl;
+	cout << "         @ - Ð¤Ñ€ÑƒÐºÑ‚Ñ‹" << endl;
+	cout << "         a Ð¸Ð»Ð¸ \" \" - ÐŸÐ¾Ð»Ðµ\n" << endl;
+	cout << "Ð£Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ: Ð¡Ñ‚Ñ€ÐµÐ»Ð¾Ñ‡ÐºÐ¸\n" << endl;
+	cout << "Ð£Ð”ÐÐ§Ð˜ Ð¢Ð•Ð‘Ð•!" << endl;
 	_sleep(10000);
 	system("color 0a");
 	system("cls");
@@ -293,7 +293,7 @@ void run()
 	}
 
 
-	cout << "\t\t!!!Êîíåö èãðû!" << endl << "\t\tÑ÷åò: " << food;
+	cout << "\t\t!!!ÐšÐ¾Ð½ÐµÑ† Ð¸Ð³Ñ€Ñ‹!" << endl << "\t\tÐ¡Ñ‡ÐµÑ‚: " << food;
 	_sleep(5000);
 	score = score + food;
 	devide();
@@ -437,7 +437,7 @@ char getMapValue(int value)
 // --
 
 // Pac-Man's function -START-
-/*Ôóíêöèè ñîçäàíèÿ ïîëÿ*/
+/*Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ð¿Ð¾Ð»Ñ*/
 void FillBackground(){
 	for (int i = 0; i < 11; i++)
 	{
@@ -509,7 +509,7 @@ void FillBackgroundHidden(){
 		}
 	}
 }
-/*Ôóíêöèè âûâîäà ïîëÿ*/
+/*Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð²Ñ‹Ð²Ð¾Ð´Ð° Ð¿Ð¾Ð»Ñ*/
 void ShowField(){
 	for (int i = 0; i < 11; i++){
 		for (int j = 0; j < 11; j++){
@@ -536,7 +536,7 @@ void ShowFieldHidden(){
 		cout << endl;
 	}
 }
-/*Ôóíêöèè ðàññòîíîâêè êîðàáëåé*/
+/*Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ñ€Ð°ÑÑÑ‚Ð¾Ð½Ð¾Ð²ÐºÐ¸ ÐºÐ¾Ñ€Ð°Ð±Ð»ÐµÐ¹*/
 void SetBoats(){
 	FillBackground();
 	int segments = 5;
@@ -546,17 +546,17 @@ void SetBoats(){
 	for (int i = 0; i < 4; i++){
 		system("cls");
 		ShowField();
-		cout << "Ñåé÷àñ ó Âàñ " << segments - 1 << " ÿðóñíûé êîðàáëü." << endl;
-		cout << "Öèôðà - ?";
+		cout << "Ð¡ÐµÐ¹Ñ‡Ð°Ñ Ñƒ Ð’Ð°Ñ " << segments - 1 << " ÑÑ€ÑƒÑÐ½Ñ‹Ð¹ ÐºÐ¾Ñ€Ð°Ð±Ð»ÑŒ." << endl;
+		cout << "Ð¦Ð¸Ñ„Ñ€Ð° - ?";
 		cin >> num;
-		cout << "\nÁóêâà - ?";
+		cout << "\nÐ‘ÑƒÐºÐ²Ð° - ?";
 		cin >> abc_temp;
 		for (int i = 1; i < 10; i++){
 			if (abc[i - 1] == abc_temp){
 				abc1 = i;
 			}
 		}
-		cout << "\nÂ êàêîì íàïðàâëåíèè ïîéäåò êîðàáëü?\n(Íàæìèòå íà ñòðåëêè äëÿ çàäàíèÿ íàïðàâëåíèÿ)" << endl;
+		cout << "\nÐ’ ÐºÐ°ÐºÐ¾Ð¼ Ð½Ð°Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ð¸ Ð¿Ð¾Ð¹Ð´ÐµÑ‚ ÐºÐ¾Ñ€Ð°Ð±Ð»ÑŒ?\n(ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð½Ð° ÑÑ‚Ñ€ÐµÐ»ÐºÐ¸ Ð´Ð»Ñ Ð·Ð°Ð´Ð°Ð½Ð¸Ñ Ð½Ð°Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ñ)" << endl;
 		int key = _getch();
 		key = _getch();
 		switch (key){
@@ -592,7 +592,7 @@ void SetBoats(){
 
 void SetBoatsEnemy(){
 	system("cls");
-	cout << "Ñåé÷àñ êîðàáëè âûñòðàèâàåò ñîïåðíèê..." << endl;
+	cout << "Ð¡ÐµÐ¹Ñ‡Ð°Ñ ÐºÐ¾Ñ€Ð°Ð±Ð»Ð¸ Ð²Ñ‹ÑÑ‚Ñ€Ð°Ð¸Ð²Ð°ÐµÑ‚ ÑÐ¾Ð¿ÐµÑ€Ð½Ð¸Ðº..." << endl;
 	int segments = 5;
 	char abc_temp;
 	int num = 0;
@@ -632,51 +632,51 @@ void SetBoatsEnemy(){
 		}
 
 	}
-	cout << "ÃÎÒÎÂÎ!" << endl;
+	cout << "Ð“ÐžÐ¢ÐžÐ’Ðž!" << endl;
 	system("pause");
 	begin();
 	play();
 }
-//Ïðîñòî ïðèâåòñòâèå
+//ÐŸÑ€Ð¾ÑÑ‚Ð¾ Ð¿Ñ€Ð¸Ð²ÐµÑ‚ÑÑ‚Ð²Ð¸Ðµ
 void begin(){
 	system("cls");
 	system("color 01");
-	cout << "ÍÀ×ÈÍÀÅÌ!" << endl;
+	cout << "ÐÐÐ§Ð˜ÐÐÐ•Ðœ!" << endl;
 	_sleep(1000);
 	system("cls");
 	system("color 02");
-	cout << "ÍÀ×ÈÍÀÅÌ!" << endl;
+	cout << "ÐÐÐ§Ð˜ÐÐÐ•Ðœ!" << endl;
 	_sleep(1000);
 	system("cls");
 	system("color 03");
-	cout << "ÍÀ×ÈÍÀÅÌ!" << endl;
+	cout << "ÐÐÐ§Ð˜ÐÐÐ•Ðœ!" << endl;
 	_sleep(1000);
 	system("cls");
 	system("color 04");
-	cout << "ÍÀ×ÈÍÀÅÌ!" << endl;
+	cout << "ÐÐÐ§Ð˜ÐÐÐ•Ðœ!" << endl;
 	_sleep(1000);
 	system("cls");
 	system("color 05");
-	cout << "ÍÀ×ÈÍÀÅÌ!" << endl;
+	cout << "ÐÐÐ§Ð˜ÐÐÐ•Ðœ!" << endl;
 	_sleep(1000);
 	system("cls");
 	system("color 03");
 }
-/*Ñàìà èãðà*/
+/*Ð¡Ð°Ð¼Ð° Ð¸Ð³Ñ€Ð°*/
 void play(){
 	char abc_temp;
 	int num = 0;
 	int abc1 = 0;
 	system("cls");
-	cout << "Ïîëå ïðîòèâíèêà:\n" << endl;
+	cout << "ÐŸÐ¾Ð»Ðµ Ð¿Ñ€Ð¾Ñ‚Ð¸Ð²Ð½Ð¸ÐºÐ°:\n" << endl;
 	ShowFieldHidden();
 	cout << "\n\n" << endl;
-	cout << "Âàøå ïîëå:\n" << endl;
+	cout << "Ð’Ð°ÑˆÐµ Ð¿Ð¾Ð»Ðµ:\n" << endl;
 	ShowField();
 	cout << "\n\n" << endl;
-	cout << "Öèôðà - ?";
+	cout << "Ð¦Ð¸Ñ„Ñ€Ð° - ?";
 	cin >> num;
-	cout << "\nÁóêâà - ?";
+	cout << "\nÐ‘ÑƒÐºÐ²Ð° - ?";
 	cin >> abc_temp;
 	for (int i = 1; i < 10; i++){
 		if (abc[i - 1] == abc_temp){
@@ -684,7 +684,7 @@ void play(){
 		}
 	}
 	if (fieldEnemy[num][abc1] == '1'){
-		cout << "ÒÛ ÏÎÏÀË!\x02" << endl;
+		cout << "Ð¢Ð« ÐŸÐžÐŸÐÐ›!\x02" << endl;
 		fieldEnemy[num][abc1] = 'X';
 		fieldHidden[num][abc1] = 'X';
 		Win();
@@ -692,7 +692,7 @@ void play(){
 		playEnemy();
 	}
 	else{
-		cout << "ÒÛ ÏÐÎÌÀÇÀË!" << endl;
+		cout << "Ð¢Ð« ÐŸÐ ÐžÐœÐÐ—ÐÐ›!" << endl;
 		fieldEnemy[num][abc1] = '0';
 		fieldHidden[num][abc1] = '0';
 		Win();
@@ -706,30 +706,30 @@ void playEnemy(){
 	int num = 0;
 	int abc1 = 0;
 	system("cls");
-	cout << "Ïîëå ïðîòèâíèêà:\n" << endl;
+	cout << "ÐŸÐ¾Ð»Ðµ Ð¿Ñ€Ð¾Ñ‚Ð¸Ð²Ð½Ð¸ÐºÐ°:\n" << endl;
 	ShowFieldHidden();
 	cout << "\n\n" << endl;
-	cout << "Âàøå ïîëå:\n" << endl;
+	cout << "Ð’Ð°ÑˆÐµ Ð¿Ð¾Ð»Ðµ:\n" << endl;
 	ShowField();
 	cout << "\n\n" << endl;
 	num = rand() % 11;
 	abc1 = rand() % 11;
 	if (field[num][abc1] == '1'){
-		cout << "Ïðîòèâíèê ïîïàë!" << endl;
+		cout << "ÐŸÑ€Ð¾Ñ‚Ð¸Ð²Ð½Ð¸Ðº Ð¿Ð¾Ð¿Ð°Ð»!" << endl;
 		field[num][abc1] = 'X';
 		Win();
 		system("pause");
 		play();
 	}
 	else{
-		cout << "ÏÐÎÒÈÂÍÈÊ ÏÐÎÌÀÇÀË!\x02" << endl;
+		cout << "ÐŸÐ ÐžÐ¢Ð˜Ð’ÐÐ˜Ðš ÐŸÐ ÐžÐœÐÐ—ÐÐ›!\x02" << endl;
 		field[num][abc1] = '0';
 		Win();
 		system("pause");
 		play();
 	}
 }
-/*Ïðîâåðêà íà ïîáåäó*/
+/*ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð½Ð° Ð¿Ð¾Ð±ÐµÐ´Ñƒ*/
 void Win(){
 	int win = 0;
 	int win1 = 0;
@@ -743,30 +743,30 @@ void Win(){
 	if (win == 21){
 		system("cls");
 		system("color 01");
-		cout << "ÒÛ ÂÛÈÃÐÀË!" << endl;
+		cout << "Ð¢Ð« Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 02");
-		cout << "ÒÛ ÂÛÈÃÐÀË!" << endl;
+		cout << "Ð¢Ð« Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 03");
-		cout << "ÒÛ ÂÛÈÃÐÀË!" << endl;
+		cout << "Ð¢Ð« Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 04");
-		cout << "ÒÛ ÂÛÈÃÐÀË!" << endl;
+		cout << "Ð¢Ð« Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 05");
-		cout << "ÒÛ ÂÛÈÃÐÀË!" << endl;
+		cout << "Ð¢Ð« Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 03");
-		cout << "Ïîçäðàâëÿåì, òû ïîáåäèë!\x02\nÑïàñèáî çà èãðó!" << endl;
+		cout << "ÐŸÐ¾Ð·Ð´Ñ€Ð°Ð²Ð»ÑÐµÐ¼, Ñ‚Ñ‹ Ð¿Ð¾Ð±ÐµÐ´Ð¸Ð»!\x02\nÐ¡Ð¿Ð°ÑÐ¸Ð±Ð¾ Ð·Ð° Ð¸Ð³Ñ€Ñƒ!" << endl;
 		_sleep(5000);
 		int an = 0;
-		cout << "Õî÷åøü ñûãðàòü çàíîâî?\n1 - Äà\n2 - Íåò" << endl;
+		cout << "Ð¥Ð¾Ñ‡ÐµÑˆÑŒ ÑÑ‹Ð³Ñ€Ð°Ñ‚ÑŒ Ð·Ð°Ð½Ð¾Ð²Ð¾?\n1 - Ð”Ð°\n2 - ÐÐµÑ‚" << endl;
 		cin >> an;
 		if (an == 1){
 			main();
@@ -774,7 +774,7 @@ void Win(){
 		else{
 			if (an == 2){
 				system("cls");
-				cout << "Ñïàñèáî çà èãðó, äðóã! Äî ñêîðûõ âñòðå÷!" << endl;
+				cout << "Ð¡Ð¿Ð°ÑÐ¸Ð±Ð¾ Ð·Ð° Ð¸Ð³Ñ€Ñƒ, Ð´Ñ€ÑƒÐ³! Ð”Ð¾ ÑÐºÐ¾Ñ€Ñ‹Ñ… Ð²ÑÑ‚Ñ€ÐµÑ‡!" << endl;
 				_sleep(5000);
 				system("exit");
 			}
@@ -790,27 +790,27 @@ void Win(){
 	if (win1 == 21){
 		system("cls");
 		system("color 01");
-		cout << "ÏÐÎÒÈÂÍÈÊ ÂÛÈÃÐÀË!" << endl;
+		cout << "ÐŸÐ ÐžÐ¢Ð˜Ð’ÐÐ˜Ðš Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 02");
-		cout << "ÏÐÎÒÈÂÍÈÊ ÂÛÈÃÐÀË!" << endl;
+		cout << "ÐŸÐ ÐžÐ¢Ð˜Ð’ÐÐ˜Ðš Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 03");
-		cout << "ÏÐÎÒÈÂÍÈÊ ÂÛÈÃÐÀË!" << endl;
+		cout << "ÐŸÐ ÐžÐ¢Ð˜Ð’ÐÐ˜Ðš Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 04");
-		cout << "ÏÐÎÒÈÂÍÈÊ ÂÛÈÃÐÀË!" << endl;
+		cout << "ÐŸÐ ÐžÐ¢Ð˜Ð’ÐÐ˜Ðš Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 05");
-		cout << "ÏÐÎÒÈÂÍÈÊ ÂÛÈÃÐÀË!" << endl;
+		cout << "ÐŸÐ ÐžÐ¢Ð˜Ð’ÐÐ˜Ðš Ð’Ð«Ð˜Ð“Ð ÐÐ›!" << endl;
 		_sleep(1000);
 		system("cls");
 		system("color 03");
-		cout << "Íó íè÷åãî, ïîâåçåò â ñëåäóþùèé ðàç...\nÑïàñèáî çà èãðó!" << endl;
+		cout << "ÐÑƒ Ð½Ð¸Ñ‡ÐµÐ³Ð¾, Ð¿Ð¾Ð²ÐµÐ·ÐµÑ‚ Ð² ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¹ Ñ€Ð°Ð·...\nÐ¡Ð¿Ð°ÑÐ¸Ð±Ð¾ Ð·Ð° Ð¸Ð³Ñ€Ñƒ!" << endl;
 		system("pause");
 		system("exit");
 	}
@@ -823,7 +823,7 @@ void mbmain(){
 	FillBackground();
 	FillBackgroundEnemy();
 	FillBackgroundHidden();
-	cout << "Äîáðî ïîæàëîâàòü â Ìîðñêîé Áîé!\n×åðåç 5 ñåê. íà÷íåòüñÿ èãðà!\nÏÐÈÃÎÒÎÂÒÅÑÜ!" << endl;
+	cout << "Ð”Ð¾Ð±Ñ€Ð¾ Ð¿Ð¾Ð¶Ð°Ð»Ð¾Ð²Ð°Ñ‚ÑŒ Ð² ÐœÐ¾Ñ€ÑÐºÐ¾Ð¹ Ð‘Ð¾Ð¹!\nÐ§ÐµÑ€ÐµÐ· 5 ÑÐµÐº. Ð½Ð°Ñ‡Ð½ÐµÑ‚ÑŒÑÑ Ð¸Ð³Ñ€Ð°!\nÐŸÐ Ð˜Ð“ÐžÐ¢ÐžÐ’Ð¢Ð•Ð¡Ð¬!" << endl;
 	_sleep(5000);
 	SetBoats();
 
